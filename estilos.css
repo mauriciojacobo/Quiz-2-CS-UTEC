@@ -11,26 +11,37 @@ body{
     position: relative;
     padding-bottom: 3em;
     min-height: 100vh;
-}
+  }
 .titulo{
   text-align: center;
-  align-content: center;
-  margin-left: 283px;
-  font-size: 32px;
+  font-size: 26px;
+  margin: 0 auto;
+  min-height: 190px;
   max-width: 800px;
-  color: #000;
+  padding: 5px;
+  color: #237DC7;
   background-color: #fff;
 }
 .subtitulo{
-  font-family: "Courier";
-  font-size: 24px;
+  font-family: "Candara";
+  font-size: 20px;
+  padding-top: 12px;
+  color: black;
+}
+.esquina{
+  margin-left: 12px;
+  margin-top: 8px;
+  text-align: left;
+  font-size: 15px;
+  color: black;
 }
 .tabs {
-    min-width: 100hv;
-    max-width: 800px;
-    padding: 50px;
-    margin: 0 auto;
-    background: #fff;
+  min-width: 100hv;
+  max-width: 800px;
+  padding: 30px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 4px 6px 5px gray;
   }
 
 section {
@@ -56,21 +67,13 @@ label {
   }
   
   label[for*='1']:before {
-    content: '\f1cb';
+    content: '\f121';
   }
   
   label[for*='2']:before {
-    content: '\f17d';
+    content: '\f092';
   }
-  
-  label[for*='3']:before {
-    content: '\f16b';
-  }
-  
-  label[for*='4']:before {
-    content: '\f1a9';
-  }
-  
+
   label:hover {
     color: #888;
     cursor: pointer;
@@ -84,9 +87,7 @@ input:checked + label {
   }
   
   #tab1:checked ~ #content1,
-  #tab2:checked ~ #content2,
-  #tab3:checked ~ #content3,
-  #tab4:checked ~ #content4 {
+  #tab2:checked ~ #content2{
     display: block;
   }
 
