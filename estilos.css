@@ -35,19 +35,37 @@ body{
   font-size: 15px;
   color: black;
 }
+
+#FOTO{
+  height: 160px;
+  width: 160px;
+  padding: 5px;
+}
 .tabs {
   min-width: 100hv;
   max-width: 800px;
+  max-height: fit-content;
   padding: 30px;
   margin: 0 auto;
   background: #fff;
   box-shadow: 4px 6px 5px gray;
   }
-
+ 
+#foto_SO{
+  padding-right: 10px;
+  padding-bottom: 13px;
+}
+.contenido_SO{
+  margin-bottom: 110px;
+  margin-right: 2px;
+}
 section {
     display: none;
     padding: 20px 0 0;
     border-top: 1px solid #ddd;
+  }
+hr.solid {
+    border-top: 3px solid #bbb;
   }
 
 label {
