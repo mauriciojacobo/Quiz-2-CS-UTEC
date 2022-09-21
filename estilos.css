@@ -11,7 +11,20 @@ body{
     position: relative;
     padding-bottom: 3em;
     min-height: 100vh;
-} 
+}
+.titulo{
+  text-align: center;
+  align-content: center;
+  margin-left: 283px;
+  font-size: 32px;
+  max-width: 800px;
+  color: #000;
+  background-color: #fff;
+}
+.subtitulo{
+  font-family: "Courier";
+  font-size: 24px;
+}
 .tabs {
     min-width: 100hv;
     max-width: 800px;
