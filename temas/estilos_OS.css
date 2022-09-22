@@ -1,0 +1,29 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1C5F91;
+    position: relative;
+    min-height: 100hv;
+}
+
+.banner{
+    text-align: center;
+    font-size: 24px;
+    margin: 0 auto;
+    min-height: 50px;
+    max-width: 75vh;
+    padding: 5px;
+    color: #237DC7;
+    background-color: #fff;
+}
+
+.texto{
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    max-width: 75vh;
+}
