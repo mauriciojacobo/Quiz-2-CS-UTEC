@@ -12,6 +12,12 @@ body{
     padding-bottom: 3em;
     min-height: 100vh;
   }
+
+.logo{
+  float: left;
+  padding: auto;;
+}
+
 .titulo{
   text-align: center;
   font-size: 26px;
@@ -60,6 +66,14 @@ body{
   margin-right: 2px;
   margin-top: 5px;
 }
+
+.contenido p li{
+  color: #fff;
+  list-style: none;
+  display: inline-block;
+  padding: 8px;
+}
+
 section {
     display: none;
     padding: 20px 0 0;
@@ -96,6 +110,11 @@ label {
   label:hover {
     color: #888;
     cursor: pointer;
+    transition: 1s;
+  }
+  
+  label:hover::after{
+    width: 100%;
   }
 
 input:checked + label {
