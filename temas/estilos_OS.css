@@ -1,29 +1,98 @@
-*, *:before, *:after {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
-    background-color: #1C5F91;
+    background-color:black ;
     position: relative;
-    min-height: 100hv;
+    min-height: 100vh;
 }
 
-.banner{
+.info{
     text-align: center;
-    font-size: 24px;
-    margin: 0 auto;
-    min-height: 50px;
-    max-width: 75vh;
-    padding: 5px;
-    color: #237DC7;
-    background-color: #fff;
+    margin: auto;
+    padding-top: 50px;
+}
+h1{
+    color: #1C5F91;
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
 }
 
-.texto{
-    background-color: #fff;
+.definicion{
+    margin-top: 4% ;
+    flex-basis: 30%;
+    background: grey;
+    border-radius: 10px;
+    margin-bottom: 5% ;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.definicion p{
     text-align: center;
-    margin: 0 auto;
-    height: auto;
-    max-width: 75vh;
+}
+.funciones{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.func-col{
+    flex-basis: 31%;
+    background: grey;
+    border-radius: 10px;
+    margin-bottom: 5% ;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 00.5s;
+}
+h3{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.func-col:hover{
+    box-shadow: 0 0 20px 0px rgba(180, 0, 0, 2);
+}
+@media(max-width: 700px) {
+    .funciones{
+        flex-direction:column;
+         
+    }
+}
+
+.ejem-os{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.imagenes{
+    display:inline;
+    justify-content: space-between;
+}
+
+.os-img{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+.os-img img{
+    width: 20% ;
+    height: 20%;;
 }
